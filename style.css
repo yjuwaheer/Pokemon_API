@@ -64,3 +64,38 @@ a:active{
     background-color: rgb(216, 171, 56);
     box-shadow: 1px 2px 1px rgb(184, 134, 11);
 }
+
+@media only screen and (max-width: 725px) {
+    body {
+        background-color: rgb(240, 199, 124);
+    }
+
+    img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .details {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: rgb(248, 196, 98);
+    }
+
+    .name {
+        font-size: 25px;
+    }
+
+    img {
+        width: 140px;
+        height: 140px;
+    }
+
+    .details {
+        font-size: 14px;
+        display: flex;
+    }
+}
